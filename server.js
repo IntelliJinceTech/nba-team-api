@@ -269,7 +269,7 @@ app.get('/api/:nbaTeamName', (req, res) => {
     } else {
         res.json(nbaTeams['unknown'])
     }
-    res.json(nbaTeams)
+    // res.json(nbaTeams)
 })
 
 
